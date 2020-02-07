@@ -53,6 +53,7 @@ public void draw() {
 		endShape();
 
 		beginShape();
+		noFill();
 		texture(img);
 		vertex(-400,0,0,440,300);
 		vertex(0,400,0,230,300);
